@@ -4,6 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <!-- Nuget packages -->
+  <ItemGroup>
+    <PackageReference Include="WindowsAzure.Storage" Version="8.4.0" />
+  </ItemGroup>
+
+  <!-- Local dependency projects -->
   <ItemGroup>
     <ProjectReference Include="..\Elaztic.Domain\Elaztic.Domain.csproj" />
   </ItemGroup>
